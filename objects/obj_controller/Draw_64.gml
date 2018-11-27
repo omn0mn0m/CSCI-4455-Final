@@ -3,5 +3,6 @@
 draw_healthbar(0,0,1136,32, health, c_black, c_red, c_lime, 0, true, false);
 
 if (health <= 0) {
+	audio_stop_sound(sound_bg);
 	room_restart();	
 }

@@ -10,6 +10,9 @@ switch(var_enemy_type) {
 	case 2:
 		// Behavior for enemy type 2
 		break;
+	case 3:
+		// Behavior for enemy type 3
+		break;
 	default:
 		break;
 }

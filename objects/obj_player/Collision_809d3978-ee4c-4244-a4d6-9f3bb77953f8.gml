@@ -9,8 +9,16 @@ if (global.current_level < 2) {
 	x += 512;	
 } else if (global.current_level == 2) {
 	room_goto(room_level);	
+} else if (global.current_level == 10) {
+	room_goto(room_title_credits);
 } else {
+	audio_stop_sound(sound_bg);
 	
+	if (global.current_level % 2 == 0) {
+		room_goto(room_level);
+	} else {
+		room_goto(room_boss);
+	}
 }
 
 global.current_level += 1;

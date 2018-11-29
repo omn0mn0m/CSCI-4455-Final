@@ -10,6 +10,9 @@ switch(var_enemy_type) {
 	case 2:
 		var_damage = 15;
 		break;
+	case 3:
+		var_damage = 20;
+		break;
 	default:
 		break;
 }

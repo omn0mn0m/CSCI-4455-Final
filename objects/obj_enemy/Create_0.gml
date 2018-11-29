@@ -21,18 +21,23 @@ if (global.current_level >= 2) {
 	var_enemy_type = 0;
 }
 
+//enemy behavior
 switch(var_enemy_type) {
 	case 0:
 		var_damage = 35;
+		path_start(path_enemy1, irandom_range(8, 15), path_action_reverse, false);
 		break;
 	case 1:
 		var_damage = 50;
+		path_start(path_enemy2, irandom_range(8, 15), path_action_reverse, false);
 		break;
 	case 2:
 		var_damage = 15;
+		path_start(path_enemy3, irandom_range(8, 15), path_action_reverse, false);
 		break;
 	case 3:
 		var_damage = 20;
+		path_start(path_enemy4, irandom_range(8, 15), path_action_reverse, false);
 		break;
 	default:
 		break;

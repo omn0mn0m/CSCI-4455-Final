@@ -6,7 +6,7 @@ if (global.current_level < 2) {
 	vx += 1200;
 	camera_set_view_pos(view_camera[0],vx,camera_get_view_y(view_camera[0]));
 
-	x += 256;	
+	x += 512;	
 } else if (global.current_level == 2) {
 	room_goto(room_level);	
 } else {

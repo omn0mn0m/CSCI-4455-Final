@@ -151,10 +151,26 @@
             }
         },
         {
+            "Key": "4a6108d8-1128-4104-adf4-0e408f6e0f44",
+            "Value": {
+                "id": "24cf6f56-66eb-4755-8093-6d7162dc366b",
+                "resourcePath": "objects\\obj_obstacle\\obj_obstacle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "634d50b4-7200-44db-b80c-956872d4d6e4",
             "Value": {
                 "id": "e2738e8e-e094-4489-9d1d-10fab6192a02",
                 "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "69ae4f8e-8e02-4996-a749-6d1e40b103f2",
+            "Value": {
+                "id": "89c7bffd-ec59-4dfe-8ab8-6ab3f67eab6b",
+                "resourcePath": "sprites\\spr_obstacle\\spr_obstacle.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -1,8 +1,8 @@
 {
-    "id": "c244ff9c-4e84-4231-9abe-b47905f9861a",
+    "id": "4a6108d8-1128-4104-adf4-0e408f6e0f44",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_objective",
+    "name": "obj_obstacle",
     "eventList": [
         
     ],
@@ -22,10 +22,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        
-    ],
+    "properties": null,
     "solid": false,
-    "spriteId": "883746d9-b58b-44b9-94f9-c1d94b4702ed",
+    "spriteId": "69ae4f8e-8e02-4996-a749-6d1e40b103f2",
     "visible": true
 }

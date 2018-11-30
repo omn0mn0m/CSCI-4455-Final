@@ -1,0 +1,3 @@
+/// @description Damage Alarm
+// You can write your code in this editor
+var_can_take_damage = true;

@@ -6,8 +6,19 @@ switch(other.var_powerup_type) {
 		alarm[0] = 40;
 		break;
 	case 1:
-		var_speed = 20;
-		alarm[0] = 80;
+		health += 25;
+		break;
+	case 2:
+		if (!var_has_shield) {
+			var_has_shield = true;
+			prev_health = health;
+		}
+		
+		health = 100;
+		break;
+	case 3:
+		var_can_shoot = true;
+		alarm[1] = 80;
 		break;
 	default:
 		break;

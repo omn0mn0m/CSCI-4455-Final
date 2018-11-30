@@ -63,6 +63,76 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
+        },
+        {
+            "id": "925b1a85-3f36-453f-82ff-fff065a8e9b9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
+        },
+        {
+            "id": "2873bc24-6c7b-4d67-ae5d-f6f434632fdf",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 37,
+            "eventtype": 5,
+            "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
+        },
+        {
+            "id": "d5f55512-cf04-4242-b58c-6223d43217f6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 39,
+            "eventtype": 5,
+            "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
+        },
+        {
+            "id": "b6bcc11d-3036-4169-ad77-6e10cc0123fc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 38,
+            "eventtype": 5,
+            "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
+        },
+        {
+            "id": "985a5334-fb69-41db-b2b4-af3ffa21ae2c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 40,
+            "eventtype": 5,
+            "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
+        },
+        {
+            "id": "bd18e80b-8d1a-4c4e-b5cf-992639961113",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "4f7f08cf-57c5-4edc-9eef-c73d4f5e70a8",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
+        },
+        {
+            "id": "fe54afd7-a555-4856-ac7a-c8057258c7b2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -92,9 +162,51 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "15",
             "varName": "var_speed",
             "varType": 1
+        },
+        {
+            "id": "fa84087c-026b-44c5-afc4-760ad03f17b4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "var_can_shoot",
+            "varType": 3
+        },
+        {
+            "id": "4e78d960-42fb-423c-bde6-4b2457e69fbe",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "var_has_shield",
+            "varType": 3
+        },
+        {
+            "id": "b5ca702b-8bee-42b1-899c-225e2dd2456f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "var_can_take_damage",
+            "varType": 3
         }
     ],
     "solid": false,

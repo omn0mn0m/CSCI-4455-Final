@@ -17,4 +17,18 @@
 //		break
 //}
 
-draw_sprite(spr_boss, var_boss_type, x, y);
+//draw_sprite(spr_boss, var_boss_type, x, y);
+
+draw_sprite(spr_boss, var_boss_type * 2 + incrementer, x, y);
+
+if (frame_incrementer == frame_speed) {
+incrementer += 1;
+
+if (incrementer == max_frames) {
+incrementer = 0;	
+}
+
+frame_incrementer = 0;
+} else {
+frame_incrementer += 1;	
+}

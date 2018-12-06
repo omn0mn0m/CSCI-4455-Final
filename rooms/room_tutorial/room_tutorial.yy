@@ -2,7 +2,7 @@
 {
     "name": "room_tutorial",
     "id": "3eeba1ca-4dcb-45df-b66f-53d089ae9e66",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

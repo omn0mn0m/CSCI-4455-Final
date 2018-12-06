@@ -2,7 +2,7 @@
 {
     "name": "room_title_credits",
     "id": "425459d6-bcab-45dc-bbe0-9b9d1bc79032",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

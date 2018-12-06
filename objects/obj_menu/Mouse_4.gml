@@ -19,6 +19,48 @@ switch (button_function) {
 			button_function = "quit";
 		}
 		
+		// ---------------- Create Level Select ---------------------
+		global.btn_level_sel_1 = instance_create_depth(vx + 256, vy, -1, obj_level_select);
+		
+		with (global.btn_level_sel_1) {
+			if (global.max_level >= 1) {
+				var_target_level = 0;
+			} else {
+				var_target_level = 4;
+			}
+		}
+		
+		global.btn_level_sel_2 = instance_create_depth(vx + 256, vy + 64, -1, obj_level_select);
+		
+		with (global.btn_level_sel_2) {
+			if (global.max_level >= 2) {
+				var_target_level = 1;
+			} else {
+				var_target_level = 4;
+			}
+		}
+		
+		global.btn_level_sel_3 = instance_create_depth(vx + 256, vy + 128, -1, obj_level_select);
+		
+		with (global.btn_level_sel_3) {
+			if (global.max_level >= 3) {
+				var_target_level = 2;
+			} else {
+				var_target_level = 4;
+			}
+		}
+		
+		global.btn_level_sel_4 = instance_create_depth(vx + 256, vy + 196, -1, obj_level_select);
+		
+		with (global.btn_level_sel_4) {
+			if (global.max_level >= 4) {
+				var_target_level = 3;
+			} else {
+				var_target_level = 4;
+			}
+		}
+		
+		// ---------------- Pause Game State ---------------------
 		global.gamePaused = 1;
 		button_function = "play";
 		break;
@@ -26,6 +68,10 @@ switch (button_function) {
 		//instance_destroy(obj_pause_bg);
 		instance_destroy(global.btn_quit);
 		instance_destroy(global.btn_restart);
+		instance_destroy(global.btn_level_sel_1);
+		instance_destroy(global.btn_level_sel_2);
+		instance_destroy(global.btn_level_sel_3);
+		instance_destroy(global.btn_level_sel_4);
 		instance_activate_all();
 		
 		global.gamePaused = 0;

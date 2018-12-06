@@ -1,5 +1,7 @@
 /// @description Give the player stat changes
 // You can write your code in this editor
+audio_play_sound(sound_powerup, 1, false);
+
 switch(other.var_powerup_type) {
 	case 0:
 		var_speed = var_speed * 2;

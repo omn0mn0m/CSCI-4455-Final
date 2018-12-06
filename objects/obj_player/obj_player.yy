@@ -81,7 +81,7 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 37,
-            "eventtype": 5,
+            "eventtype": 9,
             "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
         },
         {
@@ -91,7 +91,7 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 39,
-            "eventtype": 5,
+            "eventtype": 9,
             "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
         },
         {
@@ -101,7 +101,7 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 38,
-            "eventtype": 5,
+            "eventtype": 9,
             "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
         },
         {
@@ -111,7 +111,7 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 40,
-            "eventtype": 5,
+            "eventtype": 9,
             "m_owner": "04886b6b-204c-4e8f-9e66-69232ddec5c1"
         },
         {

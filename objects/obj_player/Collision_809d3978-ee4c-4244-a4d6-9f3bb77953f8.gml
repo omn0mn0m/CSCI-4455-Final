@@ -10,19 +10,36 @@ if (global.current_level < 2) {
 	
 	global.current_level += 1;
 } else if (global.current_level == 2) {
+	audio_stop_sound(sound_tutorial);
+	
 	global.current_level += 1;
+	
+	if (global.current_level > (global.max_level * 2) + 2) {
+		global.max_level += 1;
+	}
+	
 	room_goto(room_level);	
 } else if (global.current_level == 10) {
+	audio_stop_sound(sound_bg);
+	audio_stop_sound(sound_boss);
+	
 	global.current_level += 1;
 	room_goto(room_title_credits);
 } else {
-	audio_stop_sound(sound_bg);
-	
 	if (global.current_level % 2 == 0) {
+		audio_stop_sound(sound_boss);
+		
 		global.current_level += 1;
+		
+		if (global.current_level > (global.max_level * 2) + 2) {
+			global.max_level += 1;
+		}
+		
 		room_goto(room_level);
 	} else {
 		if (room == room_transition) {
+			audio_stop_sound(sound_tutorial);
+			
 			global.current_level += 1;
 			room_goto(room_boss);
 		} else {

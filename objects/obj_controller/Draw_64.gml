@@ -12,6 +12,8 @@ if (health <= 0) {
 		obj_player.var_has_shield = false;
 	} else {
 		audio_stop_sound(sound_bg);
+		audio_stop_sound(sound_boss);
+		audio_play_sound(sound_death, 1, false);
 		room_restart();
 	}
 }
